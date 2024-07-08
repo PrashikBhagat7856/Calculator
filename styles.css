@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: solid 10px red; */
+    background-image: url(https://iimtu.edu.in/blog/wp-content/uploads/2023/12/mechanical-engineering.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-screen {
+    width: 90%;
+    height: 25px;
+    font-size: 2em;
+    text-align: right;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: #f3f3f3;
+}
